@@ -1,0 +1,6 @@
+
+.skillImg-container img{
+    width: 200px;
+    height: inherit;
+    border-radius: 100%;
+}
