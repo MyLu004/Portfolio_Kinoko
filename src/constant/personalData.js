@@ -10,4 +10,4 @@ const LanguageSkillData =[
     }
 ]
 
-export default {LanguageSkillData}
+export default LanguageSkillData

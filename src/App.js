@@ -2,7 +2,7 @@ import React from 'react';
 
 
 import { NavBar } from './component';
-import {Home,Project, Skill, Contact} from "./container"
+import {Home,Project, Skill} from "./container"
 
 import './App.css';
 
