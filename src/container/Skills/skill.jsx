@@ -10,12 +10,11 @@ const Skill = () =>(
         <h1 className="headtext__inter">skill</h1>
 
         <div className="skill-component-container">
-            {LanguageSkillData.LanguageSkillData.map((skilldata) =>
+            {LanguageSkillData.map((skilldata) =>
             <SkillComponent
                 languageImg={skilldata.LanguageImg}
             />
-    )}
-            
+            )};
         </div>
 
         

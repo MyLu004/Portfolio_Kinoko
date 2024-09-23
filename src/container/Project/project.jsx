@@ -11,7 +11,7 @@ const Project = () =>(
         <h1 className="headtext__inter portfolio__project-headline ">PROJECT</h1>
         
         <div className="porfolio__project-component-container">
-            {ProjectData.projectData.map((projectData)=>
+            {ProjectData.map((projectData)=>
             <ProjectComponent
                 ProjectName={projectData.ProjectName}
                 ProjectTool={projectData.ProjectTool}
